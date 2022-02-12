@@ -1,0 +1,37 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+}
+header{
+ width: 10%;
+ height: 100vh;
+ border: 2px solid red;
+}
+main{
+  width: 90%;
+ height: 100vh;
+ border:2px solid green;
+}
+header, main{
+ float: left;
+}
+
+.topic, .news{
+border: 1px solid blue;
+height: 30%;
+}
+.topic{
+ height: 70%;
+}
+.news > section{
+ border: 1px solid orange;
+ float:left;
+ width: 33.3%;
+ height: 100%;
+}
+.topic > section{
+  border: 1px solid purple;
+ float:left;
+ width: 50%;
+ height: 100%;
+}
