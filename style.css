@@ -7,7 +7,8 @@
   max-width: 1200px;
   width: 80vw;
   height: 603px;
-  /* border: 1px solid grey ; */
+  margin-top: 4%;
+  border-top: 1px solid grey ;
 }
 header {
   width: 15%;
@@ -18,7 +19,7 @@ header {
 main {
   width: 85%;
   height: 100%;
-  /* margin-left: 15%; */
+  
   /* border: 2px solid; */
 }
 header .crunch-logo{
@@ -147,6 +148,7 @@ h2 {
   .container{
     border-top: 0;
     height: 200vh;
+    margin-top: 0;
   }
   main{
     width: 100%;
